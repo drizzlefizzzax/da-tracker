@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React, {Component} from 'react';
+import Layout from './containers/Layout/Layout';
 import './App.css';
+import posterImage from './poster.png';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render () {
+    return (
+      <div style={
+        {
+          "text-align": "center", 
+          backgroundImage: `url(${posterImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          width: '100%',
+          height: '100vh'
+        }
+      }>
+        <Layout align="center"></Layout>
+      </div>
+    );
+  }
 }
 
 export default App;
