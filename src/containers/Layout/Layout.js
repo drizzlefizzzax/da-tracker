@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 import Timer from '../../components/Timer/Timer';
+import logoImage from '../../logo.png';
 
 class Layout extends Component {
   state = {
@@ -66,7 +67,7 @@ class Layout extends Component {
         position: 'relative', // Ensure content is positioned relatively
         zIndex: 1, // Ensure content is above the overlay layer
       }}>
-        <img src="/logo.png" style={{ width: '35%', height: 'auto', paddingTop: '25px'}} />
+        <img src={logoImage} style={{ width: '35%', height: 'auto', paddingTop: '25px', paddingBottom: '25px'}} />
         {/*<p>{this.state.exchangeRate}</p> */}
         <br />
         <label htmlFor="hourlyRate">Project Hourly Rate: $</label>
