@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/da-tracker/static/css/main.cffbf124.css",
-    "main.js": "/da-tracker/static/js/main.63ff7218.js",
+    "main.css": "/da-tracker/static/css/main.ce966317.css",
+    "main.js": "/da-tracker/static/js/main.bb32a179.js",
     "static/js/317.66726558.chunk.js": "/da-tracker/static/js/317.66726558.chunk.js",
     "static/media/poster.png": "/da-tracker/static/media/poster.0be573066a580a37d8e0.png",
     "static/media/logo.png": "/da-tracker/static/media/logo.0a3f90eae07291ea29ea.png",
+    "static/media/Acumin-BdPro.otf": "/da-tracker/static/media/Acumin-BdPro.9fbc064b12f7e5583783.otf",
     "index.html": "/da-tracker/index.html",
-    "main.cffbf124.css.map": "/da-tracker/static/css/main.cffbf124.css.map",
-    "main.63ff7218.js.map": "/da-tracker/static/js/main.63ff7218.js.map",
+    "main.ce966317.css.map": "/da-tracker/static/css/main.ce966317.css.map",
+    "main.bb32a179.js.map": "/da-tracker/static/js/main.bb32a179.js.map",
     "317.66726558.chunk.js.map": "/da-tracker/static/js/317.66726558.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cffbf124.css",
-    "static/js/main.63ff7218.js"
+    "static/css/main.ce966317.css",
+    "static/js/main.bb32a179.js"
   ]
 }
